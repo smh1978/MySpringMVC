@@ -12,7 +12,7 @@
 <body>
 <table>
 <c:forEach items="${mList}" var="mobile">
-	<td>${mobile.tradeMark }</td><td>${mobile.price }</td><tr>
+	<tr><td>${mobile.tradeMark }</td><td>${mobile.price }</td><tr>
 </c:forEach>
 </table>
 
